@@ -22,7 +22,7 @@
     <section class="content">
         <div class="container-fluid">
 
-            <div class="row">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-lg-3 col-6">
 
                     <div class="small-box bg-info">
@@ -39,20 +39,6 @@
 
                 <div class="col-lg-3 col-6">
 
-                    <div class="small-box bg-warning">
-                        <div class="inner">
-                            <h3><?= $jumlah0; ?></h3>
-                            <p>Dalam Proses</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-stats-bars"></i>
-                        </div>
-                        <a href="<?php echo base_url('user/tbl1') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-6">
-
                     <div class="small-box bg-success">
                         <div class="inner">
                             <h3><?= $jumlah2; ?></h3>
@@ -62,20 +48,6 @@
                             <i class="ion ion-stats-bars"></i>
                         </div>
                         <a href="<?php echo base_url('user/tbl2') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-6">
-
-                    <div class="small-box bg-danger">
-                        <div class="inner">
-                            <h3><?= $jumlah1; ?></h3>
-                            <p>Ditanggapi</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-stats-bars"></i>
-                        </div>
-                        <a href="<?php echo base_url('user/tbl3') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -92,7 +64,7 @@
             </div>
 
             <div class="card-body">
-                <table id="example1" class="table table-bordered table-striped text-center">
+                <table id="example2" class="table table-bordered table-striped text-center">
                     <thead>
                         <tr>
                             <th width="1%">No</th>
